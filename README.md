@@ -2,6 +2,14 @@
 
 # Thermal Power Plant Performance Modeling with Deep Learning
 
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-yellow)
+[![Kaggle](https://img.shields.io/badge/Kaggle-Notebook-blue)](https://kaggle.com/your-link)
+[![Hugging Face](https://img.shields.io/badge/HuggingFace-Compatible-yellow)](https://huggingface.co/spaces)
+
+
 This repository presents a deep learning-based approach to model and predict the performance of a thermal power plant using historical operational data. Multiple neural architectures—including Deep Neural Networks (DNN), Convolutional Neural Networks (CNN), and Long Short-Term Memory (LSTM) networks—are evaluated to forecast key output variables.
 
 ---
