@@ -101,8 +101,8 @@ thermal-plant-forecasting/
 
 **Partha Sarathi Dutta**
 AI Researcher, Argonne National Laboratory 
-📧 Email: [pdutta3@uic.edu](mailto:pdutta3@uic.edu)
-🔗 GitHub: [@ParthaSarathiDutta](https://github.com/ParthaSarathiDutta)
+Email: [pdutta3@uic.edu](mailto:pdutta3@uic.edu)
+GitHub: [@ParthaSarathiDutta](https://github.com/ParthaSarathiDutta)
 
 ---
 
