@@ -69,7 +69,7 @@ thermal-plant-forecasting/
 ├── LICENSE # MIT License file
 └── README.md # Project overview, instructions, and model summaries
 
-````
+```
 
 ---
 
@@ -114,11 +114,9 @@ AI Researcher, Argonne National Laboratory
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
-This project was developed as a collaborative effort by  
-**Partha Sarathi Dutta**, **Safwan Mondal**, and **Subramanian Ramasamy**  
-under the guidance of **Dr. Hadis Anahideh** at the University of Illinois Chicago.
+This project was developed as a collaborative effort by **Partha Sarathi Dutta**, **Safwan Mondal**, and **Subramanian Ramasamy** under the guidance of **Dr. Hadis Anahideh** at the University of Illinois Chicago.
 
 ---
 
