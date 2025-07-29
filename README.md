@@ -90,7 +90,7 @@ thermal-plant-forecasting/
 3. Launch the notebook:
 
    ```bash
-   jupyter notebook notebooks/thermal_powerplant_prediction_DL.ipynb
+   jupyter notebook thermal_powerplant_prediction_DL.ipynb
    ```
 
 ---
