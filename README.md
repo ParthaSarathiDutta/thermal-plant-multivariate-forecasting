@@ -87,7 +87,7 @@ thermal-plant-multivariate-forecasting/
    ```bash
    git clone https://github.com/ParthaSarathiDutta/thermal-plant-multivariate-forecasting.git
    cd thermal-plant-multivariate-forecasting
-```
+    ```
 
 2. Install required packages:
 
