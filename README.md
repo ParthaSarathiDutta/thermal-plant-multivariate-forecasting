@@ -114,6 +114,14 @@ AI Researcher, Argonne National Laboratory
 
 ---
 
+## 🙏 Acknowledgments
+
+This project was developed as a collaborative effort by  
+**Partha Sarathi Dutta**, **Safwan Mondal**, and **Subramanian Ramasamy**  
+under the guidance of **Dr. Hadis Anahideh** at the University of Illinois Chicago.
+
+---
+
 ## License
 
 Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
