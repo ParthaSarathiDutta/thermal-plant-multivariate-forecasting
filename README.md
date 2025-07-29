@@ -1,4 +1,4 @@
-
+```markdown
 # Thermal Power Plant Performance Modeling with Deep Learning
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
@@ -8,44 +8,44 @@
 [![Kaggle](https://img.shields.io/badge/Kaggle-Notebook-blue)](https://www.kaggle.com/datasets/deepakburi062/power-plant-data-optimization-problem)
 [![Hugging Face](https://img.shields.io/badge/HuggingFace-Compatible-yellow)](https://huggingface.co/spaces)
 
-This repository presents a deep learning-based approach to model and predict the performance of a thermal power plant using historical operational data. Multiple neural architectures—including Deep Neural Networks (DNN), Convolutional Neural Networks (CNN), and Long Short-Term Memory (LSTM) networks—are evaluated to forecast key output variables.
+This repository explores the use of deep learning models to forecast key operational metrics of a thermal power plant. It compares Deep Neural Networks (DNN), Convolutional Neural Networks (CNN), and Long Short-Term Memory (LSTM) models for multivariate regression tasks.
 
 ---
 
 ## Overview
 
-Thermal power plants operate with nonlinear and time-varying dynamics. Traditional physical modeling techniques often fall short in capturing this complexity. This project applies deep learning models to predict critical output variables such as:
+Thermal power plants exhibit nonlinear and time-dependent behaviors. This project applies data-driven modeling techniques to predict:
 
-- **Turbine power output**
-- **Desuperheater feedwater flow**
-- **Temperature and pressure at multiple control valves**
+- Turbine power output
+- Desuperheater feedwater flow
+- Temperatures and pressures across multiple control points
 
-The goal is to improve accuracy in performance prediction, enabling smarter control and decision-making.
+The objective is to enhance predictive accuracy to support operational planning and control.
 
 ---
 
-## Models Evaluated
+## Models
 
-- **DNN**: Fully connected feedforward networks (up to 3 hidden layers)
-- **CNN (ResNet-inspired)**: 1D convolutional model adapted for time-series forecasting
-- **LSTM (RNN)**: Captures sequential dependencies and temporal patterns
+- **DNN**: Fully connected network with up to 3 hidden layers
+- **CNN (ResNet-based)**: 1D convolutional model for time-series input
+- **LSTM**: Recurrent neural network for temporal sequence modeling
 
 ---
 
 ## Dataset
 
-- **Source**: [Kaggle - Power Plant Data Optimization](https://www.kaggle.com/datasets/deepakburi062/power-plant-data-optimization-problem)
-- **Included File**: `thermal_powerplant_prediction_DL.csv`
-- **Observations**: 17,280 rows × 116 columns
-- **Preprocessing Steps**:
-  - Renaming columns for clarity
-  - Handling outliers via z-score
-  - Normalizing data using `MinMaxScaler`
-  - 70/30 train-test split
+- **Source**: [Kaggle Dataset](https://www.kaggle.com/datasets/deepakburi062/power-plant-data-optimization-problem)
+- **File**: `thermal_powerplant_prediction_DL.csv`
+- **Shape**: 17,280 samples × 116 features
+- **Preprocessing**:
+  - Feature renaming for interpretability
+  - Outlier removal (z-score based)
+  - Normalization using MinMaxScaler
+  - 70:30 train-test split
 
 ---
 
-## 📈 Model Performance
+## Results
 
 | Model          | Train R²  | Test R²   | Test MSE   |
 | -------------- | --------- | --------- | ---------- |
@@ -53,37 +53,35 @@ The goal is to improve accuracy in performance prediction, enabling smarter cont
 | CNN (ResNet)   | 0.985     | 0.916     | 0.0800     |
 | **LSTM (RNN)** | **0.957** | **0.941** | **0.0600** |
 
-> The LSTM-based RNN model yielded the highest generalization performance.
-
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 
 thermal-plant-multivariate-forecasting/
 ├── src/
-│   └── thermal\_powerplant\_prediction.py         # Cleaned Python script version
+│   └── thermal\_powerplant\_prediction.py         # Python script version
 │
 ├── notebooks/
-│   └── thermal\_powerplant\_prediction\_DL.ipynb   # Main notebook with code and results
+│   └── thermal\_powerplant\_prediction\_DL.ipynb   # Jupyter notebook
 │
 ├── data/
-│   └── thermal\_powerplant\_prediction\_DL.csv     # Dataset used in the project
+│   └── thermal\_powerplant\_prediction\_DL.csv     # Raw dataset
 │
 ├── docs/
-│   ├── thermal\_powerplant\_prediction\_DL.pdf     # Final project report
-│   └── thermal\_powerplant\_presentation.pptx     # Project presentation slides
+│   ├── thermal\_powerplant\_prediction\_DL.pdf     # Final report
+│   └── thermal\_powerplant\_presentation.pptx     # Presentation slides
 │
-├── README.md                                    # Project overview (this file)
 ├── requirements.txt                             # Python dependencies
-└── LICENSE                                      # MIT License
+├── LICENSE                                      # MIT license
+└── README.md                                    # Project overview
 
 ````
 
 ---
 
-## How to Run
+## Running Instructions
 
 1. Clone the repository:
    ```bash
@@ -91,13 +89,13 @@ thermal-plant-multivariate-forecasting/
    cd thermal-plant-multivariate-forecasting
 ````
 
-2. Install dependencies:
+2. Install required packages:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Run the Jupyter notebook:
+3. Launch the notebook:
 
    ```bash
    jupyter notebook notebooks/thermal_powerplant_prediction_DL.ipynb
@@ -105,7 +103,7 @@ thermal-plant-multivariate-forecasting/
 
 ---
 
-## Tools & Libraries
+## Dependencies
 
 * Python 3.8+
 * NumPy, Pandas
@@ -115,17 +113,18 @@ thermal-plant-multivariate-forecasting/
 
 ---
 
-## Author
+## Contact
 
 **Partha Sarathi Dutta**
 AI Researcher, Argonne National Laboratory
-[pdutta3@uic.edu](mailto:pdutta3@uic.edu)
-[GitHub Profile](https://github.com/ParthaSarathiDutta)
+📧 [pdutta3@uic.edu](mailto:pdutta3@uic.edu)
+🔗 [GitHub](https://github.com/ParthaSarathiDutta)
 
 ---
 
 ## License
 
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
-
+```
+```
