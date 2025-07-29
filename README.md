@@ -61,17 +61,17 @@ The objective is to enhance predictive accuracy to support operational planning 
 
 thermal-plant-multivariate-forecasting/
 ├── src/
-│   └── thermal\_powerplant\_prediction.py         # Python script version
+│   └── thermal_powerplant_prediction.py         # Python script version
 │
 ├── notebooks/
-│   └── thermal\_powerplant\_prediction\_DL.ipynb   # Jupyter notebook
+│   └── thermal_powerplant_prediction_DL.ipynb   # Jupyter notebook
 │
 ├── data/
-│   └── thermal\_powerplant\_prediction\_DL.csv     # Raw dataset
+│   └── thermal_powerplant_prediction_DL.csv     # Raw dataset
 │
 ├── docs/
-│   ├── thermal\_powerplant\_prediction\_DL.pdf     # Final report
-│   └── thermal\_powerplant\_presentation.pptx     # Presentation slides
+│   ├── thermal_powerplant_prediction_DL.pdf     # Final report
+│   └── thermal_powerplant_presentation.pptx     # Presentation slides
 │
 ├── requirements.txt                             # Python dependencies
 ├── LICENSE                                      # MIT license
