@@ -12,7 +12,7 @@ This repository presents a deep learning-based approach to model and predict the
 
 ---
 
-## 🧭 Overview
+## Overview
 
 Thermal power plants operate with nonlinear and time-varying dynamics. Traditional physical modeling techniques often fall short in capturing this complexity. This project applies deep learning models to predict critical output variables such as:
 
@@ -24,7 +24,7 @@ The goal is to improve accuracy in performance prediction, enabling smarter cont
 
 ---
 
-## 🧠 Models Evaluated
+## Models Evaluated
 
 - **DNN**: Fully connected feedforward networks (up to 3 hidden layers)
 - **CNN (ResNet-inspired)**: 1D convolutional model adapted for time-series forecasting
@@ -32,7 +32,7 @@ The goal is to improve accuracy in performance prediction, enabling smarter cont
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - **Source**: [Kaggle - Power Plant Data Optimization](https://www.kaggle.com/datasets/deepakburi062/power-plant-data-optimization-problem)
 - **Included File**: `thermal_powerplant_prediction_DL.csv`
@@ -53,7 +53,7 @@ The goal is to improve accuracy in performance prediction, enabling smarter cont
 | CNN (ResNet)   | 0.985     | 0.916     | 0.0800     |
 | **LSTM (RNN)** | **0.957** | **0.941** | **0.0600** |
 
-> ✅ The LSTM-based RNN model yielded the highest generalization performance.
+> The LSTM-based RNN model yielded the highest generalization performance.
 
 ---
 
@@ -83,7 +83,7 @@ thermal-plant-multivariate-forecasting/
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository:
    ```bash
@@ -105,7 +105,7 @@ thermal-plant-multivariate-forecasting/
 
 ---
 
-## 🧪 Tools & Libraries
+## Tools & Libraries
 
 * Python 3.8+
 * NumPy, Pandas
@@ -115,28 +115,17 @@ thermal-plant-multivariate-forecasting/
 
 ---
 
-## 📽️ Presentation & Report
-
-* 📎 [Download Presentation (PPTX)](docs/thermal_powerplant_presentation.pptx)
-* 📄 [Download Report (PDF)](docs/thermal_powerplant_prediction_DL.pdf)
-
----
-
-## 👤 Author
+## Author
 
 **Partha Sarathi Dutta**
 AI Researcher, Argonne National Laboratory
-📧 [pdutta3@uic.edu](mailto:pdutta3@uic.edu)
-🔗 [GitHub Profile](https://github.com/ParthaSarathiDutta)
+[pdutta3@uic.edu](mailto:pdutta3@uic.edu)
+[GitHub Profile](https://github.com/ParthaSarathiDutta)
 
 ---
 
 ## 📜 License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
-
-```
-
----
 
 
