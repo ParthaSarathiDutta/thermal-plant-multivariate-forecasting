@@ -1,4 +1,4 @@
-```markdown
+
 # Thermal Power Plant Performance Modeling with Deep Learning
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
@@ -126,5 +126,4 @@ AI Researcher, Argonne National Laboratory
 
 Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
-```
-```
+
