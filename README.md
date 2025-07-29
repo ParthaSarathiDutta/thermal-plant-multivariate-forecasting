@@ -1,6 +1,4 @@
-Here’s a polished, more professional and neutral-toned version of your project README — one that avoids the overly enthusiastic style often associated with ChatGPT-generated content:
 
----
 
 # Thermal Power Plant Performance Modeling with Deep Learning
 
